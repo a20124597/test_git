@@ -13,10 +13,10 @@ signInfo输入需要签名的字符串
 #### 1.拷贝文件
 将kmspythonsdk包直接拷入需要导入的项目目录下
 #### 2.导入python库
-cd py_sdk
-python setup.py bdist_egg 即可打包一个kmspysdk的包
-python setup.py install   安装包
-需要使用直接import kmspythonsdk
+    cd py_sdk
+    python setup.py bdist_egg 即可打包一个kmspysdk的包
+    python setup.py install   安装包
+    需要使用直接import kmspythonsdk
 ## 文档
 - 项目用户手册Wiki: [KMS用户手册](http://wiki.hobot.cc/pages/viewpage.action?pageId=69333771)
 - 项目设计文档Wiki: [KMS详细方案设计](http://wiki.hobot.cc/pages/viewpage.action?pageId=68769249)
