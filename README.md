@@ -5,10 +5,11 @@ Horizon Robotics Key Management System Python SDK.
 pip install requests
 ### 接口
 #### 获取秘钥
-函数：hobot_kms_get_key()
+    函数：hobot_kms_get_key()
+    返回获取的密钥信息
 #### 秘钥签名
-函数: hobot_kms_sign(signInfo)
-signInfo输入需要签名的字符串
+    函数: hobot_kms_sign(signInfo)
+    signInfo输入需要签名的字符串
 ### 引入包方法
 #### 1.拷贝文件
 将kmspythonsdk包直接拷入需要导入的项目目录下
